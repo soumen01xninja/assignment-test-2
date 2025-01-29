@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+/* shared styles */
+header{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.display-flex{
+    display: flex;
+}
+.orange{
+    color:rgba(254, 163, 1, 1);
+}
+.blue{
+    color: rgba(1, 172, 253, 1);
+}
+.paste{
+    color: rgba(5, 212, 223, 1);
+
+}
+.violet{
+    color: rgba(93, 88, 239, 1);
+
+}
+.dark{
+    color:rgba(17, 17, 17, 1)
+}
+.btn-primary{
+    font-size: 1.25rem;
+    color:rgba(255, 255, 255, 1) ;
+    background-color:rgba(254, 163, 1, 1) ;
+    padding: 10px 60px ;
+    border-radius: 12px ;
+    border: none;
+}
+.second-button{
+    font-size:1.25rem ;
+    font-weight: 700;
+    color:rgba(255, 255, 255, 1) ;
+    background-color:rgba(17, 17, 17, 1) ;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 47px ;
+}
+
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size:1.3rem;
+    font-weight: 500;
+}
+.navbar{
+     max-width: 1160px;
+    margin: 0px auto;
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1);
+}
+.first{
+    text-align: center;
+    align-items: center;
+}
+#menu{
+    display: none;
+}
+/* banner styles start */
+
+.banner{ 
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.banner-content{
+    max-width: 640px;
+    margin: 0 auto;
+   
+}
+.banner-tittle{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner-descrption{
+    color: rgba(17, 17, 17, 1);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.banner-dp img{
+    width: 100%;
+}
+/* main-body part styles */
+
+.mains{
+    background-image: url(../assets/bg.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/* standard cariculam section style */
+.cariculam{
+    align-items: center;
+    text-align: center;
+    
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.standard-title{
+    color:rgba(0, 0, 0, 1) ;
+    font-size: 2.875rem;
+    font-weight: 700;
+}
+.school-container{
+    gap:29px ;
+}
+.school{
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    justify-items: center;
+    padding: 40px 50px;
+    width: 367px;
+    height: 480px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 19px;
+    
+}
+.scl-1{
+    background-color: rgba(222, 245, 255, 1.00);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.scl-2{ 
+    background-color: rgba(255, 244, 220, 1.00);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.scl-3{
+    background-color: rgba(242, 232, 255, 1.00);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.school-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgba(32, 32, 32, 1) ;
+}
+.school-description{
+    font-size:1rem;
+    font-weight: 400;
+    color:rgba(128, 128, 128, 1);
+}
+.btn-1{
+    font-size: 0.9rem;
+    font-weight:700;
+    color:rgba(100, 200, 255, 1);
+    text-decoration: none;
+}
+.btn-2{
+    font-size: 0.9rem;
+    font-weight:700;
+    color:rgba(240, 170, 0, 1);
+    text-decoration: none;
+}
+.btn-3{
+    font-size: 0.9rem;
+    font-weight:700;
+    color: rgba(135, 0, 255, 1);
+    text-decoration: none;
+}
+.round-button{
+    border: none;
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    border-radius: 50%;
+    padding: 19px 22px;
+    font-size: 24px;
+    font-weight: 550;
+}
+.arrow-button {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin-top: 80px;
+}
+
+
+/* Responsive part */
+@media screen and (max-width :576px) {
+    ul>li , .btn-primary , .nav-title{
+        display: none;
+        justify-items: center;
+    }
+    .navbar{
+        margin: 12px 16px;
+
+        
+     
+    }
+    .sections{
+        border: 0.5px solid rgba(254, 163, 1, 1);
+        margin: 0px;
+    }
+    #menu{
+        display: block;
+        border: none;
+       
+    }
+    #menu>svg {
+        width: 30px;
+        height: 20px; 
+        fill: black;
+        filter: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        justify-items: center;
+        gap: 16px;
+       
+        
+        
+        
+        
+    }
+    .banner-content{
+        text-align: center;
+        align-items: center;
+        
+    }
+    .cariculam, .school-container{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .school{
+       
+        justify-items: center;
+        padding: 0;
+    
+    }
+    body{
+        margin: 0;
+       
+    }
+    .full-body{
+        padding: 20px;
+    }
+    
+    
+
+
+}
