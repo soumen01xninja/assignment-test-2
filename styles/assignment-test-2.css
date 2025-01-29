@@ -206,6 +206,15 @@ header{
     margin-top: 80px;
 }
 
+/* our stories section start */
+.grade{ 
+    background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+  
+
+}
 
 /* Responsive part */
 @media screen and (max-width :576px) {
