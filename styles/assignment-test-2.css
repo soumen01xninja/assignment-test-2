@@ -2,6 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -50,6 +63,12 @@ header{
     border: none;
     border-radius: 12px;
     padding: 10px 47px ;
+}
+.center{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 
@@ -208,12 +227,113 @@ header{
 
 /* our stories section start */
 .grade{ 
-    background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-image: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
   
 
+}
+.stories-container{
+    gap: 20px;
+    justify-content: center;
+}
+.dp{
+    border-radius:16px 16px 0 0;
+    width: 100%;
+
+}
+.story-container{
+    padding:38px;
+
+
+}
+.stories{
+     /* text-align: center;
+    align-items: center;  */
+    max-width: 1440px;
+
+    margin: 0 auto;
+    
+}
+
+.first-story{
+    width:540px;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    border: none;
+    
+}
+.school-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 1);
+}
+.school-description{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.btn-badge{
+    border: none;
+    background-color:rgba(60, 216, 232, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 47px;
+    padding:15px 19px;
+    margin-top:-100px;
+    margin-left: 38px;
+}
+/* second story section */
+.second-story{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     max-width: 600px;
+    margin: 0, auto;
+    gap:20px;
+}
+.sub-story-1{
+    background-color: white;
+    border-radius: 16px;
+}
+.img-radius{
+    text-align: center;
+    border-radius:16px 16px 0 0;
+}
+.sub-story-container{
+    padding: 28px 37px;
+}
+.btn-4{
+    background-color:rgba(149, 178, 38, 1);
+    font-size:1rem;
+    font-weight:500;
+    color:rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 47px;
+    padding:10px 19px ;
+    margin-top: -100px;
+    margin-left: 37px;
+
+}
+.content{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.marq{
+    background-color: #eeb161;
+    padding: 25px;
+
+    
+}
+/* foote section style */
+.foot{
+   
+    background-color:#59D5E0;
+}
+.end{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 /* Responsive part */
@@ -227,6 +347,19 @@ header{
 
         
      
+    }
+    .img-radius {
+        width: 100%; 
+        height: auto;
+    }
+    .sub-story-container {
+        padding: 16px;
+    }
+    .arrow-button{
+        display: none;
+    }
+    .first-story, .copy{
+        display: none;
     }
     .sections{
         border: 0.5px solid rgba(254, 163, 1, 1);
@@ -247,10 +380,12 @@ header{
         flex-direction: column-reverse;
         justify-items: center;
         gap: 16px;
-       
-        
-        
-        
+         
+    }
+    .second-story{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
         
     }
     .banner-content{
@@ -258,6 +393,7 @@ header{
         align-items: center;
         
     }
+
     .cariculam, .school-container{
         flex-direction: column;
         justify-items: center;
